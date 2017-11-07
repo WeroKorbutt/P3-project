@@ -35,5 +35,8 @@
     <ClCompile Include="Profile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

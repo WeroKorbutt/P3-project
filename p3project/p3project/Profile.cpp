@@ -2,8 +2,8 @@
 #include "stdafx.h"
 
 
-void newAccount:
+//void newAccount:
 
-void Login:
+//void Login:
 
-void ForgetPassword:
+//void ForgetPassword:
