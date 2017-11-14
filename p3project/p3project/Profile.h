@@ -5,8 +5,8 @@
 using namespace std;
 using namespace cv;
 
-class Profile {
-
+class Profile
+{
 	float stats;
 	Mat avatar;
 	String username;
@@ -17,6 +17,4 @@ public:
 	void newAccount();
 	void Login();
 	void ForgetPassword();
-
-
 };
