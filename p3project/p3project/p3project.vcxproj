@@ -149,14 +149,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="MainMenu.h" />
     <ClInclude Include="Profile.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Throphy.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="p3project.cpp" />
     <ClCompile Include="Profile.cpp" />
     <ClCompile Include="stat_screen.cpp" />
