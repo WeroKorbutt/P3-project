@@ -27,6 +27,9 @@
     <ClInclude Include="Throphy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Statscreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -44,7 +47,7 @@
     <ClCompile Include="Throphy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stat_screen.cpp">
+    <ClCompile Include="Statscreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
