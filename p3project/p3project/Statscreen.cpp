@@ -19,7 +19,7 @@ Statscreen::~Statscreen()
 
 void Statscreen::run()
 {
-	Mat img = imread("profile.jpg", CV_LOAD_IMAGE_COLOR);   // Read the file
+	const Mat img = imread("profile.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
 	waitKey(1);
 	char* source_image = "Profile page";
 	namedWindow(source_image, CV_WINDOW_AUTOSIZE);
