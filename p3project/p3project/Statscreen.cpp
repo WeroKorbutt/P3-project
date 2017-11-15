@@ -4,8 +4,6 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgcodecs/imgcodecs_c.h>
 #include <opencv2/highgui.hpp>
-#include <opencv2/photo.hpp>
-#include "iostream"
 
 using namespace std;
 using namespace cv;
