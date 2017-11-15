@@ -19,14 +19,12 @@ Statscreen::~Statscreen()
 {
 }
 
-Rect button;
-Mat3b canvas;
 //string winName = "Profile page";
 
 Mat Statscreen::run()
 {
-	const Mat img = imread("profile.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
-	return img;
+	Mat statimg = imread("profile.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
+	return statimg;
 	// Setup callback function
 	/*
 	namedWindow(winName);
