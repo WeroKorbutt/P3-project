@@ -147,7 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
-    <ClInclude Include="mainscreen.h" />
+    <ClInclude Include="Homescreen.h" />
     <ClInclude Include="Profile.h" />
     <ClInclude Include="Settings.h" />
     <ClInclude Include="Statscreen.h" />
@@ -157,7 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="mainscreen.cpp" />
+    <ClCompile Include="Homescreen.cpp" />
     <ClCompile Include="p3project.cpp" />
     <ClCompile Include="Profile.cpp" />
     <ClCompile Include="Settings.cpp" />

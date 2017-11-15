@@ -25,13 +25,4 @@ Mat Settings::run()
 {
 	Mat settimg = imread("settings.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
 	return settimg;
-	// Setup callback function
-	/*
-	namedWindow(winName);
-
-	//setMouseCallback(winName, CallBackFunc);
-
-	imshow(winName, img);
-	//waitKey(0);
-	*/
 }
