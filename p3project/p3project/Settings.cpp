@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "mainscreen.h"
+#include "Settings.h"
 #include <opencv2/core/mat.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgcodecs/imgcodecs_c.h>
@@ -10,21 +10,21 @@
 using namespace std;
 using namespace cv;
 
-Homescreen::Homescreen()
+Settings::Settings()
 {
 }
 
 
-Homescreen::~Homescreen()
+Settings ::~Settings()
 {
 }
 
-//string winName = "Home page";
+//string winName = "Profile page";
 
-Mat Homescreen::run()
+Mat Settings::run()
 {
-	Mat hometest2 = imread("home.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
-	return hometest2;
+	Mat settimg = imread("settings.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
+	return settimg;
 	// Setup callback function
 	/*
 	namedWindow(winName);

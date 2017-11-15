@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "mainscreen.h"
+#include "Game.h"
 #include <opencv2/core/mat.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgcodecs/imgcodecs_c.h>
@@ -10,21 +10,21 @@
 using namespace std;
 using namespace cv;
 
-Homescreen::Homescreen()
+Gamescreen::Gamescreen()
 {
 }
 
 
-Homescreen::~Homescreen()
+Gamescreen ::~Gamescreen()
 {
 }
 
-//string winName = "Home page";
+//string winName = "Profile page";
 
-Mat Homescreen::run()
+Mat Gamescreen::run()
 {
-	Mat hometest2 = imread("home.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
-	return hometest2;
+	Mat statimg = imread("game.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
+	return statimg;
 	// Setup callback function
 	/*
 	namedWindow(winName);
