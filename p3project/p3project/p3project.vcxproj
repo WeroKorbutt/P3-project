@@ -150,6 +150,7 @@
     <ClInclude Include="Homescreen.h" />
     <ClInclude Include="Profile.h" />
     <ClInclude Include="Settings.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="Statscreen.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -161,6 +162,7 @@
     <ClCompile Include="p3project.cpp" />
     <ClCompile Include="Profile.cpp" />
     <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Statscreen.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
