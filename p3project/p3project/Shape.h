@@ -12,6 +12,7 @@ public:
 	int getGridx();
 	int getGridy();
 	int getType();
+
 	cv::Mat getImage();
 	~Shape();
 };
