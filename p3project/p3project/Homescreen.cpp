@@ -23,7 +23,7 @@ Homescreen::~Homescreen()
 
 Mat Homescreen::run()
 {
-	Mat hometest2 = imread("home.jpg", CV_LOAD_IMAGE_COLOR); // Read the file
+	Mat hometest2 = imread("home3.png", CV_LOAD_IMAGE_COLOR); // Read the file
 	return hometest2;
 	// Setup callback function
 	/*
